@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: blue;
+}
+
+h1, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    text-align: center;
+}
+
+div#navigation {
+    text-align: left;
+}
+
+/* p {
+    text-transform: lowercase;
+    text-transform: uppercase;
+} */
+
+#navigation li {
+    color: red
+}
+
+button {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: lightcoral;
+    box-shadow: 0 5px lightgrey;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid lightsalmon;
+    border-color: lightsalmon;
+    border-radius: 20px;
+}
+
+/* pseudo-class */
+button:hover {
+    background-color: lightskyblue;
+    box-shadow: 0 1px lightgrey;
+    transition: 0.3s;
+    transform: translateY(4px);
+}
+
+/* pseudo-element */
+input::placeholder {    
+    color: lightsalmon;
+}
